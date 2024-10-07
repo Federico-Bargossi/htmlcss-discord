@@ -181,7 +181,8 @@ a {
 .main-2-block {
     width: 70%;
     max-width: 1100px;
-    min-height: 400px;
+    min-height: 600px;
+    gap: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -190,7 +191,7 @@ a {
 /* MAIN BOT */
 .main-bot {
     background-color: hsl(0deg 0% 82.75%);
-    min-height: 600px;
+    min-height: 1100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,9 +201,36 @@ a {
 .main-bot-block {
     width: 60%;
     max-width: 1100px;
-    min-height: 550px;
-    background-color: hsl(119.43deg 61.63% 33.73%);
-    border: 1px dashed black;
+    min-height: 900px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.stars{
+    background-image: url(../img/stars.svg);
+    background-size: 100% 100%;
+    font-size: 25px;
+    min-height: 80px;
+    min-width: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.scarica2{
+    background-color: hsl(226.86deg 59.32% 65.29%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 170px;
+    color: white;
+    font-size: 17px;
+    margin-top: 30px
 }
 
 /* FOOTER TOP */
